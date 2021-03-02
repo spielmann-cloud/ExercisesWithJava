@@ -133,8 +133,6 @@ public class RecuOnCanvas extends JFrame {
        		this.drawRecursive( new Line2D(line.getP1(), lineRotated.getP1()) , depth + 1);
        		this.drawRecursive( new Line2D(lineRotated.getP1(), line.getP2()) , depth + 1);
      	}
-//   		else {
-//   			System.out.println("base");
-//   		}
+
     } 
 }
